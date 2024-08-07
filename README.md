@@ -1,1 +1,29 @@
-# aduino
+# Arduino 프로젝트 설명서 🚀
+
+## 소개 🎉
+
+Arduino는 오픈 소스 전자 플랫폼으로, 하드웨어와 소프트웨어가 결합되어 다양한 전자 프로젝트를 손쉽게 구현할 수 있습니다. 개발자는 간단한 코드 작성으로 복잡한 전자 장치를 제어할 수 있으며, 다양한 센서와 모듈을 통해 혁신적인 아이디어를 실현할 수 있습니다.
+
+## 설치 방법 ⚙️
+
+1. **Arduino IDE 다운로드**: Arduino 공식 웹사이트에서 [Arduino IDE](https://www.arduino.cc/en/software)를 다운로드하고 설치합니다.
+2. **드라이버 설치**: 아두이노 보드와 컴퓨터를 연결한 후, 필요한 드라이버를 설치합니다.
+3. **보드 선택**: IDE에서 '도구' 메뉴로 이동하여 '보드'를 선택합니다. 사용 중인 Arduino 보드를 선택합니다.
+4. **포트 설정**: '도구' 메뉴에서 '포트'를 선택하여 연결된 포트를 설정합니다.
+
+## 기본 사용법 🛠️
+
+1. **코드 작성**: Arduino IDE에서 새로운 스케치를 작성합니다. 기본적인 예제 코드로 시작해 보세요.
+   
+   ```cpp
+   void setup() {
+     pinMode(LED_BUILTIN, OUTPUT); // 내장 LED를 출력으로 설정
+   }
+
+   void loop() {
+     digitalWrite(LED_BUILTIN, HIGH); // LED 켜기
+     delay(1000); // 1초 대기
+     digitalWrite(LED_BUILTIN, LOW); // LED 끄기
+     delay(1000); // 1초 대기
+   }
+```
